@@ -123,7 +123,7 @@ export default class Categories extends Component {
                   alt="Medicinal Plants"
                   title="Medicinal Plants"
                 />
-                <span>Medicinal Plants</span>
+                <span>Medicinal </span>
               </a>
             </div>
             <div>
