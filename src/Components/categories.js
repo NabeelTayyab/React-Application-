@@ -113,7 +113,7 @@ export default class Categories extends Component {
                   alt="Flowering Plants"
                   title="Flowering Plants"
                 />
-                <span>Flowering Plants</span>
+                <span>Flowering </span>
               </a>
             </div>
             <div>
