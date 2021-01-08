@@ -44,7 +44,7 @@ export default class Login extends Component {
                     <label className="_1fqY3P">
                       <span>Enter Password</span>
                     </label>
-                    <a className="_2QKxJ- _2_DUc_" tabIndex={-1}>
+                    <a className="_2QKxJ- _2_DUc_" tabIndex={-1}  href="/#">
                       <span>Forgot?</span>
                     </a>
                   </div>

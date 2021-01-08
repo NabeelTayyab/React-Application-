@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CreateInvoice from './Components/CreateInvoice';
+// import CreateInvoice from './Components/CreateInvoice';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from'./Components/login';
-import SignUp from'./Components/signup';
-import Product from './Components/product';
-import ProductDesc from './Components/productdesc';
+// import Login from'./Components/login';
+// import SignUp from'./Components/signup';
+// import Product from './Components/product';
+// import ProductDesc from './Components/productdesc';
 import Categories from './Components/categories';
 
 ReactDOM.render(

@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, {  useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./CreateInvoice.css";
@@ -487,7 +487,7 @@ const CreateInvoice = () => {
         </div>
         <div className="total_section">
           <div className="add_line">
-            <a href="#">
+            <a href="/#">
               <span>
                 <small className="add_line">Add a new line</small>
               </span>
@@ -670,7 +670,7 @@ const CreateInvoice = () => {
 
         <div className="legend_sec" id="legendId">
           {" "}
-          <a className="cancel">&nbsp;</a>
+          <a className="cancel"  href="/#"> &nbsp;</a>
           <ul>
             <li style={{ background: "none", padding: 0 }}>
               # indicates Compound Tax
