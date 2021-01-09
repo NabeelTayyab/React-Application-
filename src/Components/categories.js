@@ -11,6 +11,9 @@ import bambooplants from "./images1/bambooplants.jpg";
 import banner1 from "./images1/banner1.png";
 import banner2 from "./images1/banner2.jpg";
 import banner3 from "./images1/banner3.png";
+import Background from "./images1/Background.jpg"
+
+import camera from   "./images1/camera.png"
 
 export default class Categories extends Component {
   render() {
@@ -18,22 +21,21 @@ export default class Categories extends Component {
       superLargeDesktop: {
         // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
-        items: 5
+        items: 5,
       },
       desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 7
+        items: 7,
       },
       tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items:5
+        items: 5,
       },
       mobile: {
         breakpoint: { max: 464, min: 0 },
-        items: 5
-      }
+        items: 5,
+      },
     };
-
 
     return (
       <div className="header-slider-part">
@@ -113,7 +115,7 @@ export default class Categories extends Component {
                   alt="Flowering Plants"
                   title="Flowering Plants"
                 />
-                <span>Flowering </span>
+                <span>Flowering Plants</span>
               </a>
             </div>
             <div>
@@ -123,7 +125,7 @@ export default class Categories extends Component {
                   alt="Medicinal Plants"
                   title="Medicinal Plants"
                 />
-                <span>Medicinal </span>
+                <span>Medicinal Plants</span>
               </a>
             </div>
             <div>
@@ -146,7 +148,6 @@ export default class Categories extends Component {
                 <span>Indoor Plants</span>
               </a>
             </div>
-
           </Carousel>
         </div>
         <div>
@@ -238,6 +239,41 @@ export default class Categories extends Component {
                       <i className="icon-long-arrow-right" />
                     </a>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div
+            className="cta cta-border mb-5"
+            style={{
+              backgroundImage:'url(' + Background + ')',
+backgroundRepeat:'no-repeat'
+
+            }}
+          >
+            <img
+               src={camera}
+              alt="camera"
+              className="cta-img"
+            />
+            <div className="row justify-content-center">
+              <div className="col-md-12">
+                <div className="cta-content" style={{ display: "flex" }}>
+                  <div className="cta-text text-right text-white">
+                    <p>
+                      Shop Today’s Deals <br />
+                      <strong>Awesome Made Easy. HERO7 Black</strong>
+                    </p>
+                  </div>
+                  <a
+                    className="btn btn-primary btn-round"
+                    href="/react/molla/demo-4/shop/sidebar/list"
+                  >
+                    <span>Shop Now - $429.99</span>
+                    <i className="icon-long-arrow-right" />
+                  </a>
                 </div>
               </div>
             </div>
