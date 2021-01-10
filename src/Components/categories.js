@@ -11,9 +11,11 @@ import bambooplants from "./images1/bambooplants.jpg";
 import banner1 from "./images1/banner1.png";
 import banner2 from "./images1/banner2.jpg";
 import banner3 from "./images1/banner3.png";
-import Background from "./images1/Background.jpg"
+import Background from "./images1/Background.jpg";
+import Background1 from './images1/Background1.jpg';
+import Background2 from './images1/Background2.jpg';
 
-import camera from   "./images1/camera.png"
+import camera from "./images1/camera.png";
 
 export default class Categories extends Component {
   render() {
@@ -248,16 +250,11 @@ export default class Categories extends Component {
           <div
             className="cta cta-border mb-5"
             style={{
-              backgroundImage:'url(' + Background + ')',
-backgroundRepeat:'no-repeat'
-
+              backgroundImage: "url(" + Background + ")",
+              backgroundRepeat: "no-repeat",
             }}
           >
-            <img
-               src={camera}
-              alt="camera"
-              className="cta-img"
-            />
+            <img src={camera} alt="camera" className="cta-img" />
             <div className="row justify-content-center">
               <div className="col-md-12">
                 <div className="cta-content" style={{ display: "flex" }}>
@@ -277,6 +274,129 @@ backgroundRepeat:'no-repeat'
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="heading text-center mb-3">
+            <h2 className="title">Deals &amp; Outlet</h2>
+            <p className="title-desc">Today’s deal and more</p>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 deal-col">
+              <div
+                className="deal"
+                style={{
+                  backgroundImage: "url(" + Background1 + ")",
+                }}
+              >
+                <div className="deal-top">
+                  <h2>Deal of the Day.</h2>
+                  <h4>Limited quantities.</h4>
+                </div>
+                <div className="deal-content">
+                  <h3 className="product-title">
+                    <a href="/react/molla/demo-4/product/default/27">
+                      Home Smart Speaker with Google Assistant
+                    </a>
+                  </h3>
+                  <div className="product-price">
+                    <span className="new-price">$129.00</span>
+                    <span className="old-price">Was $150.99</span>
+                  </div>
+                  <a
+                    className="btn btn-link"
+                    href="/react/molla/demo-4/shop/sidebar/list"
+                  >
+                    <span>Shop Now</span>
+                    <i className="icon-long-arrow-right" />
+                  </a>
+                </div>
+                <div className="deal-bottom">
+                  <div className="deal-countdown offer-countdown">
+                    <span className="count-row countdown-show4">
+                      <span className="countdown-section">
+                        <span className="countdown-amount">1</span>
+                        <span className="countdown-period">Days</span>
+                      </span>
+                      <span className="countdown-section">
+                        <span className="countdown-amount">0</span>
+                        <span className="countdown-period">Hours</span>
+                      </span>
+                      <span className="countdown-section">
+                        <span className="countdown-amount">12</span>
+                        <span className="countdown-period">Minutes</span>
+                      </span>
+                      <span className="countdown-section">
+                        <span className="countdown-amount">4</span>
+                        <span className="countdown-period">Seconds</span>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 deal-col">
+              <div
+                className="deal"
+                style={{
+                  backgroundImage: "url(" + Background2 + ")",
+                }}
+              >
+                <div className="deal-top">
+                  <h2>Your Exclusive Offers.</h2>
+                  <h4>Sign in to see amazing deals.</h4>
+                </div>
+                <div className="deal-content">
+                  <h3 className="product-title">
+                    <a href="/react/molla/demo-4/product/default/27">
+                      Certified Wireless Charging Pad for iPhone / Android
+                    </a>
+                  </h3>
+                  <div className="product-price">
+                    <span className="new-price">$29.99</span>
+                  </div>
+                  <a
+                    className="btn btn-link"
+                    href="/react/molla/demo-4/shop/sidebar/list"
+                  >
+                    <span>Sign In and Save money</span>
+                    <i className="icon-long-arrow-right" />
+                  </a>
+                </div>
+                <div className="deal-bottom">
+                  <div className="deal-countdown offer-countdown">
+                    <span className="count-row countdown-show4">
+                      <span className="countdown-section">
+                        <span className="countdown-amount">1</span>
+                        <span className="countdown-period">Days</span>
+                      </span>
+                      <span className="countdown-section">
+                        <span className="countdown-amount">0</span>
+                        <span className="countdown-period">Hours</span>
+                      </span>
+                      <span className="countdown-section">
+                        <span className="countdown-amount">12</span>
+                        <span className="countdown-period">Minutes</span>
+                      </span>
+                      <span className="countdown-section">
+                        <span className="countdown-amount">4</span>
+                        <span className="countdown-period">Seconds</span>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="more-container text-center mt-1 mb-5">
+            <a
+              className="btn btn-outline-dark-2 btn-round btn-more"
+              href="/react/molla/demo-4/shop/sidebar/list"
+            >
+              <span>Shop more Outlet deals</span>
+              <i className="icon-long-arrow-right" />
+            </a>
           </div>
         </div>
       </div>
