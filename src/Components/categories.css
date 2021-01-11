@@ -466,6 +466,7 @@ p {
     background-repeat: no-repeat;
     margin-bottom: 2rem;
     min-height: 420px;
+    text-align: left
 }
 .deal>div {
     width: 100%;
@@ -473,7 +474,7 @@ p {
 .deal h2 {
     color: #ef837b;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.1rem;
     line-height: 1.1;
     letter-spacing: -.01em;
     margin-bottom: .2rem;
@@ -482,7 +483,7 @@ p {
 .deal h4 {
     color: #777;
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 1.25;
     letter-spacing: 0;
     margin-bottom: .5rem;
@@ -493,8 +494,200 @@ p {
     margin-top: -2rem;
 }
 .deal .product-title {
-    max-width: 240px;
+    max-width: 200px;
     margin-bottom: .7rem;
 }
+.product-title {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: -.01em;
+    color: #333333;
+    margin-bottom: .2rem;
+    text-align: left
+}
+.product-title a:hover,
+.product-title a:focus {
+    color: #39f;
+    text-decoration: none;
+    transition: color 0.3s ease;
 
+}
+.product-title a {
+    color: inherit
+}
+
+.product-price {
+    color: #39f;
+}
+.product-price {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #39f;
+    margin-bottom: 0.5rem;
+
+}
+.new-price {
+    color: #ef837b;
+    margin-right: .8rem;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+.old-price {
+    text-decoration: none;
+    color: #cccccc;
+}
+.deal .btn {
+    padding: 0 0 .2rem;
+
+}
+.btn-link {
+    padding: .4rem 1rem;
+    min-width: 0;
+    color: #39f;
+    text-decoration: none;
+    border: none;
+    border-bottom: .1rem solid transparent;
+    letter-spacing: 0;
+    font-size: 1rem;
+    min-width: 0;
+    font-family: "Poppins",sans-serif;
+}
+.btn-link:hover,
+.btn-link:focus
+ {
+    color: #39f;
+    text-decoration: none;
+    border-color: #39f
+}
+.deal-bottom {
+    align-self: flex-end;
+}
+.deal-countdown.offer-countdown {
+    max-width: 250px;
+}
+.deal-countdown {
+    margin-bottom: 0;
+    margin-left: -.8rem;
+    max-width: 100px;
+}
+/* .deal-countdown .countdown-show4 .countdown-section {
+    width: calc(25% - 16px)
+} */
+.deal-countdown .countdown-show4 .countdown-section {
+    width: calc(25% - 20px)
+}
+.deal-countdown .countdown-section {
+    position: relative;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: .9rem 0 .3rem;
+    margin-left: .4rem;
+    margin-right: .8rem;
+    background-color: #39f;
+    border-radius: .3rem;
+    border: none;
+    /* margin-bottom: 2rem; */
+    float: left;
+    text-align: center;
+}
+
+.countdown-section:not(:last-child):after {
+    content: ':';
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+    position: absolute;
+    left: 100%;
+    margin-left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%)
+}
+
+.countdown-section:not(:last-child):after {
+    font-size: 30px;
+    margin-left: 8px;
+    color: #39f;
+    margin-top: -0.1rem
+}
+.deal-countdown .countdown-amount {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin-bottom: .4rem;
+}
+.deal-countdown .countdown-period {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -2rem;
+    display: block;
+    font-weight: 400;
+    color: #666666;
+    text-transform: lowercase;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+}
+.icon-boxes-container {
+    background-color: #f7f7f7;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    margin-bottom: 0
+}
+
+.bg-transparent {
+    background-color: transparent!important;
+}
+
+.icon-box-side {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0
+}
+.icon-box-side .icon-box-title {
+    font-weight: 500;
+    font-size: 1.6rem;
+    letter-spacing: -.01em;
+    margin-top: .2rem;
+    margin-bottom: 0
+}
+
+.icon-box-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #39f;
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 2rem
+}
+.icon-box-icon {
+    position: absolute;
+    left: 0;
+    top: -1rem;
+    color: #666
+}
+.text-dark {
+    color: #333 !important
+}
+.icon-box-content p:last-child {
+    margin-bottom: 0
+}
 

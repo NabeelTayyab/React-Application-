@@ -14,6 +14,8 @@ import banner3 from "./images1/banner3.png";
 import Background from "./images1/Background.jpg";
 import Background1 from './images1/Background1.jpg';
 import Background2 from './images1/Background2.jpg';
+import 'font-awesome/css/font-awesome.min.css'
+
 
 import camera from "./images1/camera.png";
 
@@ -389,16 +391,52 @@ export default class Categories extends Component {
               </div>
             </div>
           </div>
-          <div className="more-container text-center mt-1 mb-5">
-            <a
-              className="btn btn-outline-dark-2 btn-round btn-more"
-              href="/react/molla/demo-4/shop/sidebar/list"
-            >
-              <span>Shop more Outlet deals</span>
-              <i className="icon-long-arrow-right" />
-            </a>
+
+        </div>
+        <div className="icon-boxes-container bg-transparent">
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-6 col-lg-3">
+          <div className="icon-box icon-box-side">
+            <span className="icon-box-icon text-dark"><i className="icon-rocket" /></span>
+            <div className="icon-box-content">
+              <h3 className="icon-box-title">Free Shipping</h3>
+              <p>Orders $50 or more</p>
+            </div>
           </div>
         </div>
+        <div className="col-sm-6 col-lg-3">
+          <div className="icon-box icon-box-side">
+            <span className="icon-box-icon text-dark"><i className="icon-rotate-left" /></span>
+            <div className="icon-box-content">
+              <h3 className="icon-box-title">Free Returns</h3>
+              <p>Within 30 days</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 col-lg-3">
+          <div className="icon-box icon-box-side">
+            <span className="icon-box-icon text-dark"><i className="icon-info-circle" /></span>
+            <div className="icon-box-content">
+              <h3 className="icon-box-title">Get 20% Off 1 Item</h3>
+              <p>When you sign up</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 col-lg-3">
+          <div className="icon-box icon-box-side">
+            <span className="icon-box-icon text-dark"><i className="icon-life-ring" /></span>
+            <div className="icon-box-content">
+              <h3 className="icon-box-title">We Support</h3>
+              <p>24/7 amazing services</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
       </div>
     );
   }
