@@ -14,7 +14,7 @@ import banner3 from "./images1/banner3.png";
 import Background from "./images1/Background.jpg";
 import Background1 from './images1/Background1.jpg';
 import Background2 from './images1/Background2.jpg';
-import 'font-awesome/css/font-awesome.min.css'
+
 
 
 
