@@ -270,7 +270,7 @@ b, strong {
 }
 .banner-link {
     font-weight: 400;
-    display: inline-block
+    display: inline-block;
 }
 .banner-link:hover,
  .banner-link:focus {

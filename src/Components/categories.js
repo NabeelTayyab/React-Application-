@@ -183,7 +183,7 @@ export default class Categories extends Component {
                       href="/react/molla/demo-4/shop/sidebar/list"
                     >
                       Shop Now
-                      <i className="icon-long-arrow-right" />
+                      <i className="fa fa-long-arrow-right" style={{marginLeft:10}}/>
                     </a>
                   </div>
                 </div>
@@ -212,7 +212,7 @@ export default class Categories extends Component {
                       href="/react/molla/demo-4/shop/sidebar/list"
                     >
                       Shop Now
-                      <i className="icon-long-arrow-right" />
+                      <i className="fa fa-long-arrow-right" style={{marginLeft:10}}/>
                     </a>
                   </div>
                 </div>
@@ -241,7 +241,7 @@ export default class Categories extends Component {
                       href="/react/molla/demo-4/shop/sidebar/list"
                     >
                       Shop Now
-                      <i className="icon-long-arrow-right" />
+                      <i className="fa fa-long-arrow-right" style={{marginLeft:10}} />
                     </a>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ export default class Categories extends Component {
                     href="/react/molla/demo-4/shop/sidebar/list"
                   >
                     <span>Shop Now - $429.99</span>
-                    <i className="icon-long-arrow-right" />
+                    <i className="fa fa-long-arrow-right" style={{marginLeft:10}} />
                   </a>
                 </div>
               </div>
@@ -312,7 +312,7 @@ export default class Categories extends Component {
                     href="/react/molla/demo-4/shop/sidebar/list"
                   >
                     <span>Shop Now</span>
-                    <i className="icon-long-arrow-right" />
+                    <i className="fa fa-long-arrow-right" style={{marginLeft:10}} />
                   </a>
                 </div>
                 <div className="deal-bottom">
@@ -364,7 +364,7 @@ export default class Categories extends Component {
                     href="/react/molla/demo-4/shop/sidebar/list"
                   >
                     <span>Sign In and Save money</span>
-                    <i className="icon-long-arrow-right" />
+                    <i className="fa fa-long-arrow-right" style={{marginLeft:10}}/>
                   </a>
                 </div>
                 <div className="deal-bottom">
